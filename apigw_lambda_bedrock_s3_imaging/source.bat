@@ -11,3 +11,7 @@ rem Now we don't need to document a Windows command for activating a virtualenv.
 
 echo Executing .venv\Scripts\activate.bat for you
 .venv\Scripts\activate.bat
+echo Setting up default account, Region, and Profile
+set CDK_DEFAULT_ACCOUNT=632804446443
+set CDK_DEFAULT_REGION=us-east-1
+set AWS_PROFILE=cli-user
