@@ -1,12 +1,10 @@
 from aws_cdk import (
-    # Duration,
-    Stack,aws_lambda as _lambda,
+    Stack,
+    aws_lambda as _lambda,
     aws_iam as iam,
     Duration,
     aws_apigateway as apigw,
-    aws_s3 as s3,
-    RemovalPolicy,
-    CfnOutput
+    aws_s3 as s3, CfnOutput, RemovalPolicy
 )
 from constructs import Construct
 
